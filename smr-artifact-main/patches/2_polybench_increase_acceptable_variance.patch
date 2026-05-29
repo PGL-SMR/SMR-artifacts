@@ -1,0 +1,13 @@
+--- polybench-fortran-1.0/utilities/time_benchmark.sh	2012-03-16 11:47:18.000000000 -0300
++++ polybench-fortran-1.0/utilities/time_benchmark.sh.new	2021-10-14 15:00:02.062142071 -0300
+@@ -9,8 +9,8 @@
+ ##
+ 
+ ## Maximal variance accepted between the 3 median runs for performance results.
+-## Here 5%
+-VARIANCE_ACCEPTED=5;
++## Here 10%
++VARIANCE_ACCEPTED=10;
+ 
+ if [ $# -ne 1 ]; then
+     echo "Usage: ./time_benchmarh.sh <binary_name>";

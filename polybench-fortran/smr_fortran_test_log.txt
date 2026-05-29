@@ -1,0 +1,124 @@
+=== Teste SMR Fortran Corrigido: Mon May 25 16:45:55 UTC 2026 ===
+[INFO] Compilando fpolybench.c de referência...
+----------------------------------------
+Processando: correlation
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: covariance
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: 2mm
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 6.982044s
+  [RESULT] Tempo Otimizado: 0.025800s
+  [RESULT] Speedup Obtido : 270.622x
+----------------------------------------
+Processando: 3mm
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 11.145053s
+  [RESULT] Tempo Otimizado: 0.042810s
+  [RESULT] Speedup Obtido : 260.338x
+----------------------------------------
+Processando: atax
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 0.067129s
+  [RESULT] Tempo Otimizado: 0.029219s
+  [RESULT] Speedup Obtido : 2.29744x
+----------------------------------------
+Processando: bicg
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 0.044033s
+  [RESULT] Tempo Otimizado: 0.026933s
+  [RESULT] Speedup Obtido : 1.63491x
+----------------------------------------
+Processando: cholesky
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: doitgen
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: gemm
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 3.627906s
+  [RESULT] Tempo Otimizado: 0.018646s
+  [RESULT] Speedup Obtido : 194.568x
+----------------------------------------
+Processando: gemver
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 0.181896s
+  [RESULT] Tempo Otimizado:  Pattern gemver1_double replaced
+ Pattern gemver2_double replaced
+ Pattern gemver3_double replaced
+ Pattern gemver4_double replaced
+0.000037s
+  [RESULT] Speedup Obtido : infx
+----------------------------------------
+Processando: gesummv
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: mvt
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 0.148740s
+  [RESULT] Tempo Otimizado: 0.022970s
+  [RESULT] Speedup Obtido : 6.4754x
+----------------------------------------
+Processando: symm
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 6.502928s
+  [RESULT] Tempo Otimizado: 0.011997s
+  [RESULT] Speedup Obtido : 542.046x
+----------------------------------------
+Processando: syr2k
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: syrk
+  [INFO] Match de Padrão Detectado! Compilando versão otimizada...
+  [RESULT] Tempo Baseline : 2.533311s
+  [RESULT] Tempo Otimizado: 0.020731s
+  [RESULT] Speedup Obtido : 122.199x
+----------------------------------------
+Processando: trisolv
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: trmm
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: durbin
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: dynprog
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: gramschmidt
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: lu
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: ludcmp
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: floyd-warshall
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: reg_detect
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: adi
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: fdtd-2d
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: fdtd-apml
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: jacobi-1d-imper
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: jacobi-2d-imper
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------
+Processando: seidel-2d
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado).
+----------------------------------------

@@ -1,0 +1,12 @@
+--- polybench-fortran-1.0/utilities/fpolybench.h	2012-03-16 11:47:18.000000000 -0300
++++ polybench-fortran-1.0/utilities/fpolybench.h.new	2021-10-14 14:02:11.826438182 -0300
+@@ -96,8 +96,7 @@
+       integer :: i;\
+       character(LEN = 30) :: arg
+ #  define POLYBENCH_DCE_ONLY_CODE_BEGIN            \
+-      call getarg(1, arg);                         \
+-      if( IARGC() > 42 .AND.  arg .EQ. '' ) then;  
++      if( .FALSE. ) then;
+ #  define POLYBENCH_DCE_ONLY_CODE_END              \
+       end if
+ # else

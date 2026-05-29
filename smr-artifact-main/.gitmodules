@@ -1,0 +1,4 @@
+[submodule "pat-compiler"]
+	path = pat-compiler
+	url = https://gitlab.com/parlab/pat-compiler.git
+	branch = f1e5c637bebfae60368a9242e7bcaecefc52ff5b

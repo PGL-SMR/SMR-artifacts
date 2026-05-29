@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  # Container for development
+  dev:
+    hostname: chipyard
+    image: sitio/smr-artifact
+    volumes:
+      - ../:/root/smr-artifact
+    entrypoint: bash /root/smr-artifact/dev/entrypoint.sh
