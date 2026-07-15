@@ -1,0 +1,338 @@
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 112: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+Pattern 113: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+Pattern 114: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+Pattern 115: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+Pattern 116: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+Pattern 117: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+Pattern 118: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+Pattern 119: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 113 (scal_matrix_2): /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c:loc(fused["/tmp/fileMG5maA":28:5, "/tmp/fileMG5maA":32:5]), 
+Got 1 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 1 possible rewrites...
+[INFO] Selected rewrite 0...
+[INFO] Applying rewrite 0...
+[INFO] Injecting "printf" definition into input code...
+[INFO] Injecting ".str" definition into input code...
+[INFO] Injecting "scal_matrix_2" definition into input code...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nt.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nt.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nt.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tt.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tt.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tt.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c =====
+/tmp/filedgOAtX:15:8: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+   15 |  float sqrt (float) ; 
+      |        ^
+/tmp/filedgOAtX:15:8: note: 'sqrt' is a builtin with type 'double (double)'
+1 warning generated.
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mult_add_into_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mult_add_into_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_mult_add_into_cpu.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 16: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Pattern 17: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Pattern 18: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Pattern 19: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Pattern 20: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Pattern 21: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Pattern 22: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Pattern 23: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 4 (scal_1): /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Pattern 18 (scal2_1): /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c:loc(fused["/tmp/fileUzOLLa":19:5, "/tmp/fileUzOLLa":21:5]), 
+Got 2 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 2 possible rewrites...
+[INFO] Selected rewrite 1...
+[INFO] Removed rewrite 0 wich conflicts with ...
+[INFO] Applying rewrite 1...
+[INFO] Injecting "printf" definition into input code...
+[INFO] Injecting ".str" definition into input code...
+[INFO] Injecting "scal2_1" definition into input code...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 88: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 89: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 90: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 91: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 92: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 93: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 94: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 95: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 96: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 97: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 98: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 99: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 100: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 101: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 102: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 103: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 46 (scal_inc_7): /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Pattern 93 (scal2_inc_2): /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c:loc(fused["/tmp/filekPi2MN":19:5, "/tmp/filekPi2MN":19:41]), 
+Got 2 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 2 possible rewrites...
+[INFO] Selected rewrite 1...
+[INFO] Removed rewrite 0 wich conflicts with ...
+[INFO] Applying rewrite 1...
+[INFO] Injecting "printf" definition into input code...
+[INFO] Injecting ".str" definition into input code...
+[INFO] Injecting "scal2_inc_2" definition into input code...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nn.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nn.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nn.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 24: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 25: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 26: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 27: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 28: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 29: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 30: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 31: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 32: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 33: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 34: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 35: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 36: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 37: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 38: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 39: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 40: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 41: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 42: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 43: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 44: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 45: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 46: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 47: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 48: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 49: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 50: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 51: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 52: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 53: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 54: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 55: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 56: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 57: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 58: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 59: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 60: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 61: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 62: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 63: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 64: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 65: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 66: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 67: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 68: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 69: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 70: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 71: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 72: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 73: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 74: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 75: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 76: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 77: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 78: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 79: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 80: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 81: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 82: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 83: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 84: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 85: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 86: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+Pattern 87: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c:loc(fused["/tmp/fileO63aLF":19:5, "/tmp/fileO63aLF":19:49]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tn.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tn.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tn.scal-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c =====
+/tmp/fileOwlHY4:15:8: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+   15 |  float sqrt (float) ; 
+      |        ^
+/tmp/fileOwlHY4:15:8: note: 'sqrt' is a builtin with type 'double (double)'
+1 warning generated.
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c, /root/smr/artifacts/angha_match/pat/serialized/scal-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/scal-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.scal-c.mlir"...

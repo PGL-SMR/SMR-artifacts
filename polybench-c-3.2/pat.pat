@@ -128,26 +128,6 @@ void twomm1(int ni, int nj, int nl, double beta, double tmp[][1024], double C[][
 }
 
 c {
-void pat_trmm(int ni, double alpha, double A[][1024], double B[][1024])
-{
-  int i, j, k;
-  for (i = 1; i < ni; i++) {
-    for (j = 0; j < ni; j++) {
-      for (k = 0; k < i; k++) {
-        B[i][j] += alpha * A[i][k] * B[j][k];
-      }
-    }
-  }
-}
-}={
-#include <cblas.h>
-void pat_trmm(int ni, double alpha, double A[][1024], double B[][1024])
-{
-  cblas_dtrmm(CblasRowMajor, CblasLeft, CblasLower, CblasTrans, CblasNonUnit, ni, ni, alpha, &A[0][0], ni, &B[0][0], ni);
-}
-}
-
-c {
 void pat_syrk(int ni, int nj, double alpha, double C[][1024], double A[][1024])
 {
   int i, j, k;
@@ -163,7 +143,11 @@ void pat_syrk(int ni, int nj, double alpha, double C[][1024], double A[][1024])
 #include <cblas.h>
 void pat_syrk(int ni, int nj, double alpha, double C[][1024], double A[][1024])
 {
-  cblas_dsyrk(CblasRowMajor, CblasLower, CblasNoTrans, ni, nj, alpha, &A[0][0], nj, 1.0, &C[0][0], ni);
+  cblas_dgemm(CblasRowMajor, CblasNoTrans, CblasTrans, 
+              ni, ni, nj, 
+              alpha, &A[0][0], 1024, 
+              &A[0][0], 1024, 
+              1.0, &C[0][0], 1024);
 }
 }
 
@@ -184,31 +168,13 @@ void pat_syr2k(int ni, int nj, double alpha, double C[][1024], double A[][1024],
 #include <cblas.h>
 void pat_syr2k(int ni, int nj, double alpha, double C[][1024], double A[][1024], double B[][1024])
 {
-  cblas_dsyr2k(CblasRowMajor, CblasLower, CblasNoTrans, ni, nj, alpha, &A[0][0], nj, &B[0][0], nj, 1.0, &C[0][0], ni);
-}
-}
-
-c {
-void pat_symm(int ni, int nj, double alpha, double beta, double C[][1024], double A[][1024], double B[][1024])
-{
-  int i, j, k;
-  double acc;
-  for (i = 0; i < ni; i++) {
-    for (j = 0; j < nj; j++) {
-      acc = 0;
-      for (k = 0; k < j - 1; k++) {
-        C[k][j] += alpha * A[k][i] * B[i][j];
-        acc += B[k][j] * A[k][i];
-      }
-      C[i][j] = beta * C[i][j] + alpha * A[i][i] * B[i][j] + alpha * acc;
-    }
-  }
-}
-}={
-#include <cblas.h>
-void pat_symm(int ni, int nj, double alpha, double beta, double C[][1024], double A[][1024], double B[][1024])
-{
-  cblas_dsymm(CblasRowMajor, CblasRight, CblasLower, ni, nj, alpha, &A[0][0], nj, &B[0][0], nj, beta, &C[0][0], nj);
+  // C = C + alpha * A * B^T
+  cblas_dgemm(CblasRowMajor, CblasNoTrans, CblasTrans, 
+              ni, ni, nj, alpha, &A[0][0], 1024, &B[0][0], 1024, 1.0, &C[0][0], 1024);
+  
+  // C = C + alpha * B * A^T
+  cblas_dgemm(CblasRowMajor, CblasNoTrans, CblasTrans, 
+              ni, ni, nj, alpha, &B[0][0], 1024, &A[0][0], 1024, 1.0, &C[0][0], 1024);
 }
 }
 

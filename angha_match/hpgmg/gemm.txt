@@ -1,0 +1,72 @@
+
+===== FILE: /root/smr/artifacts/angha/hpgmg/extr_CEEDHPGMGfinite-volumesourcesolverscabicgstab.c_vdotv.c =====
+[ERROR] Expected 2 Args, but got 1 for format string 'Could not open file '{0}' due to {1}'
+smr: /opt/llvm-project/llvm/lib/Support/FormatVariadic.cpp:191: static SmallVector<ReplacementItem, 2> llvm::formatv_object_base::parseFormatString(StringRef, size_t, bool): Assertion `0 && "Invalid formatv() call"' failed.
+Running SMR on files: /root/smr/artifacts/angha/hpgmg/extr_CEEDHPGMGfinite-volumesourcesolverscabicgstab.c_vdotv.c, /root/smr/artifacts/angha/pgl.patterns/serialized/gemm.opat, PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: smr /root/smr/artifacts/angha/hpgmg/extr_CEEDHPGMGfinite-volumesourcesolverscabicgstab.c_vdotv.c /root/smr/artifacts/angha/pgl.patterns/serialized/gemm.opat -o /root/smr/artifacts/angha/hpgmg/extr_CEEDHPGMGfinite-volumesourcesolverscabicgstab.c_vdotv.gemm.mlir
+ #0 0x000057af3699d0d8 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/smr/build/smr/smr+0x2880d8)
+ #1 0x000057af3699a775 llvm::sys::RunSignalHandlers() (/root/smr/build/smr/smr+0x285775)
+ #2 0x000057af3699de41 SignalHandler(int, siginfo_t*, void*) Signals.cpp:0:0
+ #3 0x00007ab8b0fe4520 (/lib/x86_64-linux-gnu/libc.so.6+0x42520)
+ #4 0x00007ab8b10389fc pthread_kill (/lib/x86_64-linux-gnu/libc.so.6+0x969fc)
+ #5 0x00007ab8b0fe4476 gsignal (/lib/x86_64-linux-gnu/libc.so.6+0x42476)
+ #6 0x00007ab8b0fca7f3 abort (/lib/x86_64-linux-gnu/libc.so.6+0x287f3)
+ #7 0x00007ab8b0fca71b (/lib/x86_64-linux-gnu/libc.so.6+0x2871b)
+ #8 0x00007ab8b0fdbe96 (/lib/x86_64-linux-gnu/libc.so.6+0x39e96)
+ #9 0x000057af369481be llvm::formatv_object_base::parseFormatString(llvm::StringRef, unsigned long, bool) (/root/smr/build/smr/smr+0x2331be)
+#10 0x000057af36986681 llvm::formatv_object_base::format(llvm::raw_ostream&) const (/root/smr/build/smr/smr+0x271681)
+#11 0x000057af3698663f llvm::raw_ostream::operator<<(llvm::formatv_object_base const&) (/root/smr/build/smr/smr+0x27163f)
+#12 0x000057af36c527f6 llvm::raw_ostream::operator<<(llvm::StringRef) /usr/local/include/llvm/Support/raw_ostream.h:230:37
+#13 0x000057af36c527f6 llvm::raw_ostream::operator<<(char const*) /usr/local/include/llvm/Support/raw_ostream.h:258:18
+#14 0x000057af36c527f6 int log<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>(LogLevelKind, Msg, llvm::raw_fd_ostream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>) /root/smr/smr/Logger/Logger.hpp:42:9
+#15 0x000057af36c4ff4f std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_data() const /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:195:28
+#16 0x000057af36c4ff4f std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_is_local() const /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:230:16
+#17 0x000057af36c4ff4f std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_dispose() /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:239:7
+#18 0x000057af36c4ff4f std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string() /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:672:9
+#19 0x000057af36c4ff4f int error<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>(Msg, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>) /root/smr/smr/Logger/Logger.hpp:48:3
+#20 0x000057af36c4ff4f loadObjectPatFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&, Data&, cdg::CDG&, ddg::DDG&) /root/smr/smr/Files.cpp:131:5
+#21 0x000057af36c4d653 loadAllFiles(Data&, cdg::CDG&, ddg::DDG&) /root/smr/smr/Files.cpp:86:18
+#22 0x000057af3692458e llvm::cl::opt_storage<bool, false, false>::getValue() const /usr/local/include/llvm/Support/CommandLine.h:1438:38
+#23 0x000057af3692458e llvm::cl::opt_storage<bool, false, false>::operator bool() const /usr/local/include/llvm/Support/CommandLine.h:1442:38
+#24 0x000057af3692458e main /root/smr/smr/main.cpp:46:7
+#25 0x00007ab8b0fcbd90 (/lib/x86_64-linux-gnu/libc.so.6+0x29d90)
+#26 0x00007ab8b0fcbe40 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29e40)
+#27 0x000057af36923f75 _start (/root/smr/build/smr/smr+0x20ef75)
+ERROR applying pattern
+
+===== FILE: /root/smr/artifacts/angha/hpgmg/extr_CEEDHPGMGfinite-volumesourcesolverscacg.c_vdotv.c =====
+[ERROR] Expected 2 Args, but got 1 for format string 'Could not open file '{0}' due to {1}'
+smr: /opt/llvm-project/llvm/lib/Support/FormatVariadic.cpp:191: static SmallVector<ReplacementItem, 2> llvm::formatv_object_base::parseFormatString(StringRef, size_t, bool): Assertion `0 && "Invalid formatv() call"' failed.
+Running SMR on files: /root/smr/artifacts/angha/hpgmg/extr_CEEDHPGMGfinite-volumesourcesolverscacg.c_vdotv.c, /root/smr/artifacts/angha/pgl.patterns/serialized/gemm.opat, PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: smr /root/smr/artifacts/angha/hpgmg/extr_CEEDHPGMGfinite-volumesourcesolverscacg.c_vdotv.c /root/smr/artifacts/angha/pgl.patterns/serialized/gemm.opat -o /root/smr/artifacts/angha/hpgmg/extr_CEEDHPGMGfinite-volumesourcesolverscacg.c_vdotv.gemm.mlir
+ #0 0x0000594646f650d8 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/smr/build/smr/smr+0x2880d8)
+ #1 0x0000594646f62775 llvm::sys::RunSignalHandlers() (/root/smr/build/smr/smr+0x285775)
+ #2 0x0000594646f65e41 SignalHandler(int, siginfo_t*, void*) Signals.cpp:0:0
+ #3 0x00007ebe21966520 (/lib/x86_64-linux-gnu/libc.so.6+0x42520)
+ #4 0x00007ebe219ba9fc pthread_kill (/lib/x86_64-linux-gnu/libc.so.6+0x969fc)
+ #5 0x00007ebe21966476 gsignal (/lib/x86_64-linux-gnu/libc.so.6+0x42476)
+ #6 0x00007ebe2194c7f3 abort (/lib/x86_64-linux-gnu/libc.so.6+0x287f3)
+ #7 0x00007ebe2194c71b (/lib/x86_64-linux-gnu/libc.so.6+0x2871b)
+ #8 0x00007ebe2195de96 (/lib/x86_64-linux-gnu/libc.so.6+0x39e96)
+ #9 0x0000594646f101be llvm::formatv_object_base::parseFormatString(llvm::StringRef, unsigned long, bool) (/root/smr/build/smr/smr+0x2331be)
+#10 0x0000594646f4e681 llvm::formatv_object_base::format(llvm::raw_ostream&) const (/root/smr/build/smr/smr+0x271681)
+#11 0x0000594646f4e63f llvm::raw_ostream::operator<<(llvm::formatv_object_base const&) (/root/smr/build/smr/smr+0x27163f)
+#12 0x000059464721a7f6 llvm::raw_ostream::operator<<(llvm::StringRef) /usr/local/include/llvm/Support/raw_ostream.h:230:37
+#13 0x000059464721a7f6 llvm::raw_ostream::operator<<(char const*) /usr/local/include/llvm/Support/raw_ostream.h:258:18
+#14 0x000059464721a7f6 int log<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>(LogLevelKind, Msg, llvm::raw_fd_ostream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>) /root/smr/smr/Logger/Logger.hpp:42:9
+#15 0x0000594647217f4f std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_data() const /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:195:28
+#16 0x0000594647217f4f std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_is_local() const /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:230:16
+#17 0x0000594647217f4f std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_dispose() /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:239:7
+#18 0x0000594647217f4f std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string() /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:672:9
+#19 0x0000594647217f4f int error<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>(Msg, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>) /root/smr/smr/Logger/Logger.hpp:48:3
+#20 0x0000594647217f4f loadObjectPatFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&, Data&, cdg::CDG&, ddg::DDG&) /root/smr/smr/Files.cpp:131:5
+#21 0x0000594647215653 loadAllFiles(Data&, cdg::CDG&, ddg::DDG&) /root/smr/smr/Files.cpp:86:18
+#22 0x0000594646eec58e llvm::cl::opt_storage<bool, false, false>::getValue() const /usr/local/include/llvm/Support/CommandLine.h:1438:38
+#23 0x0000594646eec58e llvm::cl::opt_storage<bool, false, false>::operator bool() const /usr/local/include/llvm/Support/CommandLine.h:1442:38
+#24 0x0000594646eec58e main /root/smr/smr/main.cpp:46:7
+#25 0x00007ebe2194dd90 (/lib/x86_64-linux-gnu/libc.so.6+0x29d90)
+#26 0x00007ebe2194de40 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29e40)
+#27 0x0000594646eebf75 _start (/root/smr/build/smr/smr+0x20ef75)
+ERROR applying pattern

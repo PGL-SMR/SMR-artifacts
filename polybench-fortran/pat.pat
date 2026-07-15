@@ -1,5 +1,5 @@
 f90 {
-subroutine p2mm1_double(tmp, a, b, alpha, ni, nj, nk)
+subroutine smr_pattern_p2mm1_double(tmp, a, b, alpha, ni, nj, nk)
   double precision, dimension(nj, ni) :: tmp
   double precision, dimension(nk, ni) :: a
   double precision, dimension(nj, nk) :: b
@@ -16,7 +16,7 @@ subroutine p2mm1_double(tmp, a, b, alpha, ni, nj, nk)
   end do
 end subroutine
 }={
-subroutine p2mm1_double(tmp, a, b, alpha, ni, nj, nk)
+subroutine smr_pattern_p2mm1_double(tmp, a, b, alpha, ni, nj, nk)
   double precision, dimension(nj, ni) :: tmp
   double precision, dimension(nk, ni) :: a
   double precision, dimension(nj, nk) :: b
@@ -30,7 +30,7 @@ end subroutine
 }
 
 f90 {
-subroutine p2mm2_double(tmp, c, d, beta, ni, nj, nl)
+subroutine smr_pattern_p2mm2_double(tmp, c, d, beta, ni, nj, nl)
   double precision, dimension(nj, ni) :: tmp
   double precision, dimension(nl, nj) :: c
   double precision, dimension(nl, ni) :: d
@@ -47,7 +47,7 @@ subroutine p2mm2_double(tmp, c, d, beta, ni, nj, nl)
   end do
 end subroutine
 }={
-subroutine p2mm2_double(tmp, c, d, beta, ni, nj, nl)
+subroutine smr_pattern_p2mm2_double(tmp, c, d, beta, ni, nj, nl)
   double precision, dimension(nj, ni) :: tmp
   double precision, dimension(nl, nj) :: c
   double precision, dimension(nl, ni) :: d
@@ -61,7 +61,7 @@ end subroutine
 }
 
 f90 {
-subroutine p3mm_double(a, b, e, ni, nj, nk)
+subroutine smr_pattern_p3mm_double(a, b, e, ni, nj, nk)
   double precision, dimension(nj, nk) :: b
   double precision, dimension(nj, ni) :: e
   double precision, dimension(nk, ni) :: a
@@ -78,7 +78,7 @@ subroutine p3mm_double(a, b, e, ni, nj, nk)
   end do
 end subroutine
 }={
-subroutine p3mm_double(a, b, e, ni, nj, nk)
+subroutine smr_pattern_p3mm_double(a, b, e, ni, nj, nk)
   double precision, dimension(nj, nk) :: b
   double precision, dimension(nj, ni) :: e
   double precision, dimension(nk, ni) :: a
@@ -91,7 +91,7 @@ end subroutine
 }
 
 f90 {
-subroutine atax_double(a, x, y, tmp, nx, ny)
+subroutine smr_pattern_atax_double(a, x, y, tmp, nx, ny)
   double precision, dimension(ny, nx) :: a
   double precision, dimension(ny) :: x
   double precision, dimension(ny) :: y
@@ -109,7 +109,7 @@ subroutine atax_double(a, x, y, tmp, nx, ny)
   end do
 end subroutine
 }={
-subroutine atax_double(a, x, y, tmp, nx, ny)
+subroutine smr_pattern_atax_double(a, x, y, tmp, nx, ny)
   double precision, dimension(ny, nx) :: a
   double precision, dimension(ny) :: x
   double precision, dimension(ny) :: y
@@ -124,7 +124,7 @@ end subroutine
 }
 
 f90 {
-subroutine bicg_double(a, r, q, p, s, nx, ny)
+subroutine smr_pattern_bicg_double(a, r, q, p, s, nx, ny)
   double precision, dimension(ny, nx) :: a
   double precision, dimension(nx) :: r
   double precision, dimension(nx) :: q
@@ -142,7 +142,7 @@ subroutine bicg_double(a, r, q, p, s, nx, ny)
   end do
 end subroutine
 }={
-subroutine bicg_double(a, r, q, p, s, nx, ny)
+subroutine smr_pattern_bicg_double(a, r, q, p, s, nx, ny)
   double precision, dimension(ny, nx) :: a
   double precision, dimension(nx) :: r
   double precision, dimension(nx) :: q
@@ -158,7 +158,7 @@ end subroutine
 }
 
 f90 {
-subroutine doitgen_double(a, sumA, cFour, nr, nq, np, r, q)
+subroutine smr_pattern_doitgen_double(a, sumA, cFour, nr, nq, np, r, q)
   double precision, dimension(np, nq, nr) :: a
   double precision, dimension(np, nq, nr) :: sumA
   double precision, dimension(np, np) :: cFour
@@ -173,7 +173,7 @@ subroutine doitgen_double(a, sumA, cFour, nr, nq, np, r, q)
   end do
 end subroutine
 }={
-subroutine doitgen_double(a, sumA, cFour, nr, nq, np, r, q)
+subroutine smr_pattern_doitgen_double(a, sumA, cFour, nr, nq, np, r, q)
   double precision, dimension(np, nq, nr) :: a
   double precision, dimension(np, nq, nr) :: sumA
   double precision, dimension(np, np) :: cFour
@@ -187,7 +187,7 @@ end subroutine
 }
 
 f90 {
-subroutine gemm_double(m, n, k, alpha, A, B, beta, C)
+subroutine smr_pattern_gemm_double(m, n, k, alpha, A, B, beta, C)
   integer :: m, n, k
   double precision, dimension(m, n) :: C
   double precision, dimension(m, k) :: A
@@ -204,7 +204,7 @@ subroutine gemm_double(m, n, k, alpha, A, B, beta, C)
   end do
 end subroutine
 }={
-subroutine gemm_double(m, n, k, alpha, A, B, beta, C)
+subroutine smr_pattern_gemm_double(m, n, k, alpha, A, B, beta, C)
   integer :: m, n, k
   double precision, dimension(m, n) :: C
   double precision, dimension(m, k) :: A
@@ -218,107 +218,7 @@ end subroutine
 }
 
 f90 {
-subroutine gemver1_double(a, u1, u2, v1, v2, n)
-  double precision, dimension(n, n) :: a
-  double precision, dimension(n) :: u1
-  double precision, dimension(n) :: u2
-  double precision, dimension(n) :: v1
-  double precision, dimension(n) :: v2
-  integer :: n
-
-  do i = 1, n
-    do j = 1, n
-      a(j, i) = a(j, i) + (u1(i) * v1(j)) + (u2(i) * v2(j))
-    end do
-  end do
-end subroutine
-}={
-subroutine gemver1_double(a, u1, u2, v1, v2, n)
-  double precision, dimension(n, n) :: a
-  double precision, dimension(n) :: u1
-  double precision, dimension(n) :: u2
-  double precision, dimension(n) :: v1
-  double precision, dimension(n) :: v2
-  integer :: n
-
-  print*,"Pattern gemver1_double replaced"
-end subroutine
-}
-
-f90 {
-subroutine gemver2_double(a, x, y, beta, n)
-  double precision, dimension(n, n) :: a
-  double precision, dimension(n) :: x
-  double precision, dimension(n) :: y
-  double precision :: beta
-  integer :: n
-
-  do i = 1, n
-    do j = 1, n
-      x(i) = x(i) + (beta * a(i, j) * y(j))
-    end do
-  end do
-end subroutine
-}={
-subroutine gemver2_double(a, x, y, beta, n)
-  double precision, dimension(n, n) :: a
-  double precision, dimension(n) :: x
-  double precision, dimension(n) :: y
-  double precision :: beta
-  integer :: n
-
-  print*,"Pattern gemver2_double replaced"
-end subroutine
-}
-
-f90 {
-subroutine gemver3_double(x, z, n)
-  double precision, dimension(n) :: x
-  double precision, dimension(n) :: z
-  integer :: n
-
-  do i = 1, n
-    x(i) = x(i) + z(i)
-  end do
-end subroutine
-}={
-subroutine gemver3_double(x, z, n)
-  double precision, dimension(n) :: x
-  double precision, dimension(n) :: z
-  integer :: n
-
-  print*,"Pattern gemver3_double replaced"
-end subroutine
-}
-
-f90 {
-subroutine gemver4_double(a, w, x, alpha, n)
-  double precision, dimension(n, n) :: a
-  double precision, dimension(n) :: w
-  double precision, dimension(n) :: x
-  double precision :: alpha
-  integer :: n
-
-  do i = 1, n
-    do j = 1, n
-      w(i) = w(i) + (alpha * a(j, i) * x(j))
-    end do
-  end do
-end subroutine
-}={
-subroutine gemver4_double(a, w, x, alpha, n)
-  double precision, dimension(n, n) :: a
-  double precision, dimension(n) :: w
-  double precision, dimension(n) :: x
-  double precision :: alpha
-  integer :: n
-
-  print*,"Pattern gemver4_double replaced"
-end subroutine
-}
-
-f90 {
-subroutine mvt1_double(a, x1, y1, n)
+subroutine smr_pattern_mvt1_double(a, x1, y1, n)
   double precision, dimension(n, n) :: a
   double precision, dimension(n) :: x1
   double precision, dimension(n) :: y1
@@ -332,7 +232,7 @@ subroutine mvt1_double(a, x1, y1, n)
   end do
 end subroutine
 }={
-subroutine mvt1_double(a, x1, y1, n)
+subroutine smr_pattern_mvt1_double(a, x1, y1, n)
   double precision, dimension(n, n) :: a
   double precision, dimension(n) :: x1
   double precision, dimension(n) :: y1
@@ -346,7 +246,7 @@ end subroutine
 }
 
 f90 {
-subroutine mvt2_double(a, x2, y2, n)
+subroutine smr_pattern_mvt2_double(a, x2, y2, n)
   double precision, dimension(n, n) :: a
   double precision, dimension(n) :: x2
   double precision, dimension(n) :: y2
@@ -360,7 +260,7 @@ subroutine mvt2_double(a, x2, y2, n)
   end do
 end subroutine
 }={
-subroutine mvt2_double(a, x2, y2, n)
+subroutine smr_pattern_mvt2_double(a, x2, y2, n)
   double precision, dimension(n, n) :: a
   double precision, dimension(n) :: x2
   double precision, dimension(n) :: y2
@@ -374,7 +274,7 @@ end subroutine
 }
 
 f90 {
-subroutine symm_double(a, b, c, alpha, beta, ni, nj)
+subroutine smr_pattern_symm_double(a, b, c, alpha, beta, ni, nj)
   double precision, dimension(nj, nj) :: a
   double precision, dimension(nj, ni) :: b
   double precision, dimension(nj, ni) :: c
@@ -395,7 +295,7 @@ subroutine symm_double(a, b, c, alpha, beta, ni, nj)
   end do
 end subroutine
 }={
-subroutine symm_double(a, b, c, alpha, beta, ni, nj)
+subroutine smr_pattern_symm_double(a, b, c, alpha, beta, ni, nj)
   double precision, dimension(nj, nj) :: a
   double precision, dimension(nj, ni) :: b
   double precision, dimension(nj, ni) :: c
@@ -409,7 +309,7 @@ end subroutine
 }
 
 f90 {
-subroutine syr2k2_double(a, b, c, alpha, ni, nj)
+subroutine smr_pattern_syr2k2_double(a, b, c, alpha, ni, nj)
   double precision, dimension(nj, ni) :: a
   double precision, dimension(nj, ni) :: b
   double precision, dimension(ni, ni) :: c
@@ -429,7 +329,7 @@ subroutine syr2k2_double(a, b, c, alpha, ni, nj)
   end do
 end subroutine
 }={
-subroutine syr2k2_double(a, b, c, alpha, ni, nj)
+subroutine smr_pattern_syr2k2_double(a, b, c, alpha, ni, nj)
   double precision, dimension(nj, ni) :: a
   double precision, dimension(nj, ni) :: b
   double precision, dimension(ni, ni) :: c
@@ -443,7 +343,7 @@ end subroutine
 }
 
 f90 {
-subroutine syrk2_double(a, c, alpha, ni, nj)
+subroutine smr_pattern_syrk2_double(a, c, alpha, ni, nj)
   double precision, dimension(ni, ni) :: a
   double precision, dimension(nj, ni) :: c
   double precision :: alpha
@@ -458,7 +358,7 @@ subroutine syrk2_double(a, c, alpha, ni, nj)
   end do
 end subroutine
 }={
-subroutine syrk2_double(a, c, alpha, ni, nj)
+subroutine smr_pattern_syrk2_double(a, c, alpha, ni, nj)
   double precision, dimension(ni, ni) :: a
   double precision, dimension(nj, ni) :: c
   double precision :: alpha

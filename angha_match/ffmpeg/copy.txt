@@ -1,0 +1,458 @@
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_af_superequalizer.c_filter_frame.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_af_superequalizer.c_filter_frame.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_af_superequalizer.c_filter_frame.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 0: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+Pattern 1: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+Pattern 2: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+Pattern 3: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+Pattern 4: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+Pattern 5: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+Pattern 6: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+Pattern 7: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 2 (copy_1): /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":103:17, "/tmp/fileqyHgLd":105:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":111:17, "/tmp/fileqyHgLd":113:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":82:17, "/tmp/fileqyHgLd":84:17]), /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.c:loc(fused["/tmp/fileqyHgLd":90:17, "/tmp/fileqyHgLd":92:17]), 
+Got 4 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 4 possible rewrites...
+[INFO] Selected rewrite 3...
+[INFO] Applying rewrite 3...
+[INFO] Injecting "printf" definition into input code...
+[INFO] Injecting ".str" definition into input code...
+[INFO] Injecting "copy_1" definition into input code...
+[INFO] Selected rewrite 2...
+[INFO] Applying rewrite 2...
+[WARN] Failed to inject "printf" definition! It already exists in the input code!
+[WARN] Failed to inject ".str" definition! It already exists in the input code!
+[WARN] Failed to inject "copy_1" definition! It already exists in the input code!
+[INFO] Selected rewrite 1...
+[INFO] Applying rewrite 1...
+[WARN] Failed to inject "printf" definition! It already exists in the input code!
+[WARN] Failed to inject ".str" definition! It already exists in the input code!
+[WARN] Failed to inject "copy_1" definition! It already exists in the input code!
+[INFO] Selected rewrite 0...
+[INFO] Applying rewrite 0...
+[WARN] Failed to inject "printf" definition! It already exists in the input code!
+[WARN] Failed to inject ".str" definition! It already exists in the input code!
+[WARN] Failed to inject "copy_1" definition! It already exists in the input code!
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_filter_frame.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 8: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 9: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 10: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 11: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 12: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 13: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 14: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 15: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 16: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 17: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 18: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 19: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 20: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 21: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 22: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 23: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 24: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 25: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 26: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 27: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 28: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 29: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 30: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 31: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 32: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 33: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 34: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 35: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 36: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 37: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 38: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+Pattern 39: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.c:loc(fused["/tmp/fileHNBTFV":21:5, "/tmp/fileHNBTFV":22:25]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_celt_inner_prod.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 8: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 9: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 10: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 11: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 12: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 13: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 14: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 15: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 16: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 17: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 18: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 19: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 20: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 21: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 22: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 23: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 24: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 25: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 26: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 27: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 28: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 29: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 30: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 31: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 32: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 33: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 34: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 35: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 36: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 37: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 38: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+Pattern 39: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.c:loc(fused["/tmp/filesnkVZq":20:5, "/tmp/filesnkVZq":21:28]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_dmac_scalar_c.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 0: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+Pattern 1: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+Pattern 2: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+Pattern 3: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+Pattern 4: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+Pattern 5: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+Pattern 6: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+Pattern 7: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 2 (copy_1): /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.c:loc(fused["/tmp/fileq3Rgw5":24:5, "/tmp/fileq3Rgw5":26:5]), 
+Got 1 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 1 possible rewrites...
+[INFO] Selected rewrite 0...
+[INFO] Applying rewrite 0...
+[INFO] Injecting "printf" definition into input code...
+[INFO] Injecting ".str" definition into input code...
+[INFO] Injecting "copy_1" definition into input code...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row16.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 8: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 9: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 10: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 11: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 12: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 13: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 14: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 15: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 16: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 17: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 18: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 19: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 20: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 21: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 22: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 23: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 24: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 25: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 26: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 27: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 28: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 29: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 30: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 31: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 32: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 33: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 34: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 35: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 36: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 37: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 38: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+Pattern 39: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.c:loc(fused["/tmp/fileh9aZCA":21:5, "/tmp/fileh9aZCA":22:26]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_avpriv_scalarproduct_float_c.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 0: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+Pattern 1: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+Pattern 2: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+Pattern 3: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+Pattern 4: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+Pattern 5: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+Pattern 6: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+Pattern 7: /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 2 (copy_1): /root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.c:loc(fused["/tmp/fileia2HoP":23:5, "/tmp/fileia2HoP":25:5]), 
+Got 1 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 1 possible rewrites...
+[INFO] Selected rewrite 0...
+[INFO] Applying rewrite 0...
+[INFO] Injecting "printf" definition into input code...
+[INFO] Injecting ".str" definition into input code...
+[INFO] Injecting "copy_1" definition into input code...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_vf_bm3d.c_get_block_row.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 8: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 9: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 10: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 11: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 12: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 13: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 14: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 15: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 16: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 17: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 18: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 19: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 20: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 21: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 22: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 23: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 24: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 25: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 26: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 27: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 28: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 29: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 30: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 31: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 32: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 33: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 34: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 35: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 36: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 37: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 38: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+Pattern 39: /root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.c:loc(fused["/tmp/fileWWftFL":31:5, "/tmp/fileWWftFL":32:26]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_af_arnndn.c_find_best_pitch.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_do_vertical_columns.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_do_vertical_columns.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_vf_gblur.c_do_vertical_columns.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_cook.c_interpolate_float.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_cook.c_interpolate_float.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_cook.c_interpolate_float.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 0: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+Pattern 1: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+Pattern 2: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+Pattern 3: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+Pattern 4: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+Pattern 5: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+Pattern 6: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+Pattern 7: /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 2 (copy_1): /root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.c:loc(fused["/tmp/filem169ob":37:9, "/tmp/filem169ob":38:23]), 
+Got 1 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 1 possible rewrites...
+[INFO] Selected rewrite 0...
+[INFO] Applying rewrite 0...
+[INFO] Injecting "printf" definition into input code...
+[INFO] Injecting ".str" definition into input code...
+[INFO] Injecting "copy_1" definition into input code...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_opus_pvq.c_celt_stereo_merge.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 8: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 9: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 10: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 11: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 12: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 13: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 14: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 15: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 16: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 17: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 18: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 19: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 20: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 21: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 22: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 23: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 24: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 25: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 26: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 27: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 28: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 29: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 30: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 31: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 32: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 33: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 34: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 35: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 36: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 37: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 38: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+Pattern 39: /root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.c:loc(fused["/tmp/fileSah0nJ":21:5, "/tmp/fileSah0nJ":22:26]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_celp_math.c_ff_dot_productf.copy.mlir"...
+
+===== FILE: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c =====
+Running SMR on files: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c, /root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha/pgl.patterns/serialized/copy.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 8: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 9: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 10: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 11: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 12: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 13: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 14: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 15: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 16: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 17: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 18: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 19: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 20: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 21: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 22: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 23: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 24: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 25: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 26: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 27: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 28: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 29: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 30: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 31: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 32: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 33: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 34: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 35: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 36: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 37: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 38: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+Pattern 39: /root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.c:loc(fused["/tmp/fileFDVcMo":20:5, "/tmp/fileFDVcMo":21:28]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha/ffmpeg/extr_float_dsp.c_vector_fmac_scalar_c.copy.mlir"...

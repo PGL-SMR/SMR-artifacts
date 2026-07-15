@@ -1,0 +1,590 @@
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 32: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 33: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 34: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 35: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 36: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 37: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 38: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 39: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 40: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 41: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 42: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 43: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 44: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 45: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 46: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 47: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 48: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 49: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 50: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 51: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 52: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 53: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 54: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 55: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 56: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 57: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 58: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 59: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 60: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 61: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 62: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 63: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 64: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 65: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 66: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 67: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 68: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 69: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 70: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 71: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 72: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 73: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 74: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 75: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 76: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 77: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 78: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 79: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 80: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 81: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 82: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 83: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 84: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 85: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 86: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 87: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 88: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 89: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 90: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 91: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 92: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 93: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 94: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 95: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 96: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 97: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 98: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 99: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 100: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 101: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 102: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 103: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 104: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 105: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 106: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 107: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 108: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 109: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 110: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 111: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 112: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 113: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 114: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 115: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 116: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 117: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 118: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 119: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 120: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 121: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 122: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 123: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 124: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 125: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 126: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 127: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 128: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 129: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 130: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 131: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 132: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 133: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 134: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 135: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 136: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 137: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 138: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 139: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 140: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 141: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 142: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 143: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 144: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 145: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 146: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 147: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 148: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 149: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 150: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 151: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 152: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 153: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 154: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 155: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 156: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 157: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 158: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+Pattern 159: /root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.c:loc(fused["/tmp/file4Q99dT":19:5, "/tmp/file4Q99dT":19:55]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_axpy_cpu.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_cpu.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nt.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nt.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nt.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tt.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tt.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tt.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 0: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 1: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 2: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 3: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 4: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 5: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 6: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 7: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 8: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 9: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 10: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 11: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 12: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 13: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 14: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 15: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 16: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 17: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 18: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 19: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 20: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 21: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 22: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 23: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 24: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 25: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 26: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 27: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 28: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 29: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 30: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+Pattern 31: /root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.c:loc(fused["/tmp/filepxrDtc":19:5, "/tmp/filepxrDtc":19:48]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_copy_cpu.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 32: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 33: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 34: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 35: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 36: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 37: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 38: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 39: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 40: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 41: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 42: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 43: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 44: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 45: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 46: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 47: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 48: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 49: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 50: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 51: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 52: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 53: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 54: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 55: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 56: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 57: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 58: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 59: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 60: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 61: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 62: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 63: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 64: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 65: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 66: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 67: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 68: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 69: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 70: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 71: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 72: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 73: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 74: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 75: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 76: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 77: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 78: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 79: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 80: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 81: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 82: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 83: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 84: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 85: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 86: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 87: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 88: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 89: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 90: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 91: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 92: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 93: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 94: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 95: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 96: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 97: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 98: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 99: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 100: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 101: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 102: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 103: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 104: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 105: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 106: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 107: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 108: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 109: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 110: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 111: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 112: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 113: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 114: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 115: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 116: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 117: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 118: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 119: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 120: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 121: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 122: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 123: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 124: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 125: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 126: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 127: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 128: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 129: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 130: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 131: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 132: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 133: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 134: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 135: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 136: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 137: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 138: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 139: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 140: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 141: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 142: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 143: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 144: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 145: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 146: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 147: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 148: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 149: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 150: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 151: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 152: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 153: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 154: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 155: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 156: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 157: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 158: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 159: /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 76 (dot_inc_13): /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Pattern 78 (dot_inc_15): /root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.c:loc(fused["/tmp/filerWIYpp":20:5, "/tmp/filerWIYpp":20:55]), 
+Got 2 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 2 possible rewrites...
+[INFO] Selected rewrite 1...
+[INFO] Removed rewrite 0 wich conflicts with ...
+[INFO] Applying rewrite 1...
+[WARN] Removed rewrite 1 due to problems with arguments.
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_dot_cpu.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c =====
+/tmp/fileQlwLBJ:15:8: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+   15 |  float sqrt (float) ; 
+      |        ^
+/tmp/fileQlwLBJ:15:8: note: 'sqrt' is a builtin with type 'double (double)'
+1 warning generated.
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 0: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 1: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 2: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 3: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 4: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 5: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 6: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 7: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 8: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 9: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 10: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 11: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 12: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 13: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 14: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 15: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 16: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 17: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 18: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 19: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 20: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 21: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 22: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 23: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 24: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 25: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 26: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 27: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 28: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 29: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 30: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 31: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 8 (dot_1): /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Pattern 10 (dot_3): /root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.c:loc(fused["/tmp/fileQlwLBJ":21:5, "/tmp/fileQlwLBJ":21:43]), 
+Got 2 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 2 possible rewrites...
+[INFO] Selected rewrite 1...
+[INFO] Removed rewrite 0 wich conflicts with ...
+[INFO] Applying rewrite 1...
+[WARN] Removed rewrite 1 due to problems with arguments.
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_utils.c_mse_array.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mult_add_into_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mult_add_into_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_mult_add_into_cpu.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_utils.c_scale_array.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_scal_cpu.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nn.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nn.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_nn.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_blas.c_mul_cpu.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tn.c =====
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tn.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Got 0 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 0 possible rewrites...
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_gemm.c_gemm_tn.dot-c.mlir"...
+
+===== FILE: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c =====
+/tmp/filefwqdh9:15:8: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+   15 |  float sqrt (float) ; 
+      |        ^
+/tmp/filefwqdh9:15:8: note: 'sqrt' is a builtin with type 'double (double)'
+1 warning generated.
+Running SMR on files: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c, /root/smr/artifacts/angha_match/pat/serialized/dot-c.opat, [INFO] Unserializing automatons from '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'...
+[WARN] File ignored since --compile flag is set: '/root/smr/artifacts/angha_match/pat/serialized/dot-c.opat'
+
+[INFO] Starting CDG matching...
+========== CDG matches ==========
+Pattern 0: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 1: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 2: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 3: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 4: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 5: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 6: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 7: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 8: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 9: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 10: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 11: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 12: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 13: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 14: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 15: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 16: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 17: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 18: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 19: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 20: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 21: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 22: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 23: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 24: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 25: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 26: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 27: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 28: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 29: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 30: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 31: /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+=================================
+[INFO] Starting DDG matching...
+========== DDG matches ==========
+Pattern 8 (dot_1): /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Pattern 10 (dot_3): /root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.c:loc(fused["/tmp/filefwqdh9":21:5, "/tmp/filefwqdh9":23:5]), 
+Got 2 Matches.
+
+[INFO] Starting rewrite stage...
+[INFO] Selecting between 2 possible rewrites...
+[INFO] Selected rewrite 1...
+[INFO] Removed rewrite 0 wich conflicts with ...
+[INFO] Applying rewrite 1...
+[WARN] Removed rewrite 1 due to problems with arguments.
+[INFO] Outputing optimized input to file "/root/smr/artifacts/angha_match/darknet/extr_utils.c_mag_array.dot-c.mlir"...
