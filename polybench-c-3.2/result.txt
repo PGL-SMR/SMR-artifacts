@@ -1,0 +1,128 @@
+----------------------------------------
+Processando: correlation
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: covariance
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: 2mm
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 9.553412s
+  [RESULT] Tempo Otimizado: 0.025926s
+  [RESULT] Speedup Obtido : 368.488x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: 3mm
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 13.341027s
+  [RESULT] Tempo Otimizado: 0.042512s
+  [RESULT] Speedup Obtido : 313.818x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: atax
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 0.079261s
+  [RESULT] Tempo Otimizado: 0.021482s
+  [RESULT] Speedup Obtido : 3.68965x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: bicg
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 0.050974s
+  [RESULT] Tempo Otimizado: 0.021703s
+  [RESULT] Speedup Obtido : 2.34871x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: cholesky
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: doitgen
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: gemm
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 7.121200s
+  [RESULT] Tempo Otimizado: 0.011952s
+  [RESULT] Speedup Obtido : 595.817x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: gemver
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 0.198822s
+  [RESULT] Tempo Otimizado: 0.084734s
+  [RESULT] Speedup Obtido : 2.34643x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: gesummv
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: mvt
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 0.151043s
+  [RESULT] Tempo Otimizado: 0.031450s
+  [RESULT] Speedup Obtido : 4.80264x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: symm
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: syr2k
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 5.096676s
+  [RESULT] Tempo Otimizado: 0.022669s
+  [RESULT] Speedup Obtido : 224.83x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: syrk
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 2.617327s
+  [RESULT] Tempo Otimizado: 0.012669s
+  [RESULT] Speedup Obtido : 206.593x
+  [RESULT] Validação      : SUCESSO (Resultados equivalentes)
+----------------------------------------
+Processando: trisolv
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: trmm
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: durbin
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: dynprog
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: gramschmidt
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: lu
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: ludcmp
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: floyd-warshall
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: reg_detect
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: adi
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: fdtd-2d
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: fdtd-apml
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: jacobi-1d-imper
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: jacobi-2d-imper
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processando: seidel-2d
+  [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
+----------------------------------------
+Processo finalizado. Resumo salvo em smr_test_log.txt.

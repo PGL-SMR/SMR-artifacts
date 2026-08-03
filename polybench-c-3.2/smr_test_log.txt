@@ -1,4 +1,4 @@
-=== Teste SMR: Wed Jul 15 15:12:07 UTC 2026 ===
+=== Teste SMR: Wed Jul 15 17:39:03 UTC 2026 ===
 ----------------------------------------
 Processando: correlation
 Running SMR on files: tmp_correlation.c, [INFO] Input file compiled and stored at 'tmp_correlation-compiled.mlir'
@@ -6,7 +6,7 @@ Running SMR on files: tmp_correlation.c, [INFO] Input file compiled and stored a
 Running SMR on files: tmp_correlation.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 3: tmp_correlation.c:loc(fused["/tmp/fileEWn2BN":35:5, "/tmp/fileEWn2BN":36:40]), 
+Pattern 3: tmp_correlation.c:loc(fused["/tmp/fileok9zLG":35:5, "/tmp/fileok9zLG":36:40]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
@@ -39,13 +39,13 @@ Running SMR on files: tmp_2mm.c, [INFO] Input file compiled and stored at 'tmp_2
 Running SMR on files: tmp_2mm.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 5: tmp_2mm.c:loc(fused["/tmp/fileTQhUdF":85:3, "/tmp/fileTQhUdF":91:7]), 
-Pattern 6: tmp_2mm.c:loc(fused["/tmp/fileTQhUdF":92:3, "/tmp/fileTQhUdF":98:7]), 
+Pattern 5: tmp_2mm.c:loc(fused["/tmp/fileBA7xfM":85:3, "/tmp/fileBA7xfM":91:7]), 
+Pattern 6: tmp_2mm.c:loc(fused["/tmp/fileBA7xfM":92:3, "/tmp/fileBA7xfM":98:7]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 5 (twomm0): tmp_2mm.c:loc(fused["/tmp/fileTQhUdF":85:3, "/tmp/fileTQhUdF":91:7]), 
-Pattern 6 (twomm1): tmp_2mm.c:loc(fused["/tmp/fileTQhUdF":92:3, "/tmp/fileTQhUdF":98:7]), 
+Pattern 5 (twomm0): tmp_2mm.c:loc(fused["/tmp/fileBA7xfM":85:3, "/tmp/fileBA7xfM":91:7]), 
+Pattern 6 (twomm1): tmp_2mm.c:loc(fused["/tmp/fileBA7xfM":92:3, "/tmp/fileBA7xfM":98:7]), 
 Got 2 Matches.
 
 [INFO] Starting rewrite stage...
@@ -60,9 +60,9 @@ Got 2 Matches.
 [INFO] Injecting "twomm1" definition into input code...
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 12.873887s
-  [RESULT] Tempo Otimizado: 0.026105s
-  [RESULT] Speedup Obtido : 493.158x
+  [RESULT] Tempo Baseline : 9.553412s
+  [RESULT] Tempo Otimizado: 0.025926s
+  [RESULT] Speedup Obtido : 368.488x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: 3mm
@@ -71,11 +71,11 @@ Running SMR on files: tmp_3mm.c, [INFO] Input file compiled and stored at 'tmp_3
 Running SMR on files: tmp_3mm.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 11: tmp_3mm.c:loc(fused["/tmp/filevlkSe4":81:3, "/tmp/filevlkSe4":87:7]), tmp_3mm.c:loc(fused["/tmp/filevlkSe4":89:3, "/tmp/filevlkSe4":95:7]), tmp_3mm.c:loc(fused["/tmp/filevlkSe4":97:3, "/tmp/filevlkSe4":103:7]), 
+Pattern 11: tmp_3mm.c:loc(fused["/tmp/file5RCBcP":81:3, "/tmp/file5RCBcP":87:7]), tmp_3mm.c:loc(fused["/tmp/file5RCBcP":89:3, "/tmp/file5RCBcP":95:7]), tmp_3mm.c:loc(fused["/tmp/file5RCBcP":97:3, "/tmp/file5RCBcP":103:7]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 11 (gemm_match): tmp_3mm.c:loc(fused["/tmp/filevlkSe4":81:3, "/tmp/filevlkSe4":87:7]), tmp_3mm.c:loc(fused["/tmp/filevlkSe4":89:3, "/tmp/filevlkSe4":95:7]), tmp_3mm.c:loc(fused["/tmp/filevlkSe4":97:3, "/tmp/filevlkSe4":103:7]), 
+Pattern 11 (gemm_match): tmp_3mm.c:loc(fused["/tmp/file5RCBcP":81:3, "/tmp/file5RCBcP":87:7]), tmp_3mm.c:loc(fused["/tmp/file5RCBcP":89:3, "/tmp/file5RCBcP":95:7]), tmp_3mm.c:loc(fused["/tmp/file5RCBcP":97:3, "/tmp/file5RCBcP":103:7]), 
 Got 3 Matches.
 
 [INFO] Starting rewrite stage...
@@ -94,9 +94,9 @@ Got 3 Matches.
 [WARN] Failed to inject "gemm_match" definition! It already exists in the input code!
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 19.807556s
-  [RESULT] Tempo Otimizado: 0.043796s
-  [RESULT] Speedup Obtido : 452.269x
+  [RESULT] Tempo Baseline : 13.341027s
+  [RESULT] Tempo Otimizado: 0.042512s
+  [RESULT] Speedup Obtido : 313.818x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: atax
@@ -105,11 +105,11 @@ Running SMR on files: tmp_atax.c, [INFO] Input file compiled and stored at 'tmp_
 Running SMR on files: tmp_atax.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 12: tmp_atax.c:loc(fused["/tmp/filegK0TzJ":70:3, "/tmp/filegK0TzJ":77:5]), 
+Pattern 12: tmp_atax.c:loc(fused["/tmp/fileVj5UCs":70:3, "/tmp/fileVj5UCs":77:5]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 12 (atax): tmp_atax.c:loc(fused["/tmp/filegK0TzJ":70:3, "/tmp/filegK0TzJ":77:5]), 
+Pattern 12 (atax): tmp_atax.c:loc(fused["/tmp/fileVj5UCs":70:3, "/tmp/fileVj5UCs":77:5]), 
 Got 1 Matches.
 
 [INFO] Starting rewrite stage...
@@ -120,9 +120,9 @@ Got 1 Matches.
 [INFO] Injecting "atax" definition into input code...
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 0.070181s
-  [RESULT] Tempo Otimizado: 0.022450s
-  [RESULT] Speedup Obtido : 3.1261x
+  [RESULT] Tempo Baseline : 0.079261s
+  [RESULT] Tempo Otimizado: 0.021482s
+  [RESULT] Speedup Obtido : 3.68965x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: bicg
@@ -131,11 +131,11 @@ Running SMR on files: tmp_bicg.c, [INFO] Input file compiled and stored at 'tmp_
 Running SMR on files: tmp_bicg.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 13: tmp_bicg.c:loc(fused["/tmp/fileZW1zZd":79:3, "/tmp/fileZW1zZd":87:5]), 
+Pattern 13: tmp_bicg.c:loc(fused["/tmp/fileMyLMTS":79:3, "/tmp/fileMyLMTS":87:5]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 13 (pat_bicg): tmp_bicg.c:loc(fused["/tmp/fileZW1zZd":79:3, "/tmp/fileZW1zZd":87:5]), 
+Pattern 13 (pat_bicg): tmp_bicg.c:loc(fused["/tmp/fileMyLMTS":79:3, "/tmp/fileMyLMTS":87:5]), 
 Got 1 Matches.
 
 [INFO] Starting rewrite stage...
@@ -146,9 +146,9 @@ Got 1 Matches.
 [INFO] Injecting "pat_bicg" definition into input code...
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 0.050378s
-  [RESULT] Tempo Otimizado: 0.020488s
-  [RESULT] Speedup Obtido : 2.4589x
+  [RESULT] Tempo Baseline : 0.050974s
+  [RESULT] Tempo Otimizado: 0.021703s
+  [RESULT] Speedup Obtido : 2.34871x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: cholesky
@@ -189,11 +189,11 @@ Running SMR on files: tmp_gemm.c, [INFO] Input file compiled and stored at 'tmp_
 Running SMR on files: tmp_gemm.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 0: tmp_gemm.c:loc(fused["/tmp/fileYHlbBJ":76:3, "/tmp/fileYHlbBJ":82:7]), 
+Pattern 0: tmp_gemm.c:loc(fused["/tmp/fileuqUePK":76:3, "/tmp/fileuqUePK":82:7]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 0 (smr_gemm): tmp_gemm.c:loc(fused["/tmp/fileYHlbBJ":76:3, "/tmp/fileYHlbBJ":82:7]), 
+Pattern 0 (smr_gemm): tmp_gemm.c:loc(fused["/tmp/fileuqUePK":76:3, "/tmp/fileuqUePK":82:7]), 
 Got 1 Matches.
 
 [INFO] Starting rewrite stage...
@@ -204,9 +204,9 @@ Got 1 Matches.
 [INFO] Injecting "smr_gemm" definition into input code...
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 7.630166s
-  [RESULT] Tempo Otimizado: 0.012580s
-  [RESULT] Speedup Obtido : 606.531x
+  [RESULT] Tempo Baseline : 7.121200s
+  [RESULT] Tempo Otimizado: 0.011952s
+  [RESULT] Speedup Obtido : 595.817x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: gemver
@@ -215,17 +215,17 @@ Running SMR on files: tmp_gemver.c, [INFO] Input file compiled and stored at 'tm
 Running SMR on files: tmp_gemver.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 1: tmp_gemver.c:loc(fused["/tmp/filePK6MwH":94:3, "/tmp/filePK6MwH":96:55]), 
-Pattern 2: tmp_gemver.c:loc(fused["/tmp/filePK6MwH":105:3, "/tmp/filePK6MwH":107:43]), tmp_gemver.c:loc(fused["/tmp/filePK6MwH":98:3, "/tmp/filePK6MwH":100:41]), 
-Pattern 3: tmp_gemver.c:loc(fused["/tmp/filePK6MwH":102:3, "/tmp/filePK6MwH":103:22]), 
-Pattern 4: tmp_gemver.c:loc(fused["/tmp/filePK6MwH":105:3, "/tmp/filePK6MwH":107:43]), tmp_gemver.c:loc(fused["/tmp/filePK6MwH":98:3, "/tmp/filePK6MwH":100:41]), 
+Pattern 1: tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":94:3, "/tmp/fileKL8hwy":96:55]), 
+Pattern 2: tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":105:3, "/tmp/fileKL8hwy":107:43]), tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":98:3, "/tmp/fileKL8hwy":100:41]), 
+Pattern 3: tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":102:3, "/tmp/fileKL8hwy":103:22]), 
+Pattern 4: tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":105:3, "/tmp/fileKL8hwy":107:43]), tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":98:3, "/tmp/fileKL8hwy":100:41]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 1 (smr_gemver_loop1): tmp_gemver.c:loc(fused["/tmp/filePK6MwH":94:3, "/tmp/filePK6MwH":96:55]), 
-Pattern 2 (smr_gemver_loop2): tmp_gemver.c:loc(fused["/tmp/filePK6MwH":98:3, "/tmp/filePK6MwH":100:41]), 
-Pattern 3 (smr_gemver_loop3): tmp_gemver.c:loc(fused["/tmp/filePK6MwH":102:3, "/tmp/filePK6MwH":103:22]), 
-Pattern 4 (smr_gemver_loop4): tmp_gemver.c:loc(fused["/tmp/filePK6MwH":105:3, "/tmp/filePK6MwH":107:43]), 
+Pattern 1 (smr_gemver_loop1): tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":94:3, "/tmp/fileKL8hwy":96:55]), 
+Pattern 2 (smr_gemver_loop2): tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":98:3, "/tmp/fileKL8hwy":100:41]), 
+Pattern 3 (smr_gemver_loop3): tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":102:3, "/tmp/fileKL8hwy":103:22]), 
+Pattern 4 (smr_gemver_loop4): tmp_gemver.c:loc(fused["/tmp/fileKL8hwy":105:3, "/tmp/fileKL8hwy":107:43]), 
 Got 4 Matches.
 
 [INFO] Starting rewrite stage...
@@ -248,9 +248,9 @@ Got 4 Matches.
 [INFO] Injecting "smr_gemver_loop1" definition into input code...
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 0.185272s
-  [RESULT] Tempo Otimizado: 0.071039s
-  [RESULT] Speedup Obtido : 2.60803x
+  [RESULT] Tempo Baseline : 0.198822s
+  [RESULT] Tempo Otimizado: 0.084734s
+  [RESULT] Speedup Obtido : 2.34643x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: gesummv
@@ -275,14 +275,14 @@ Running SMR on files: tmp_mvt.c, [INFO] Input file compiled and stored at 'tmp_m
 Running SMR on files: tmp_mvt.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 3: tmp_mvt.c:loc(fused["/tmp/filewN86d0":40:7, "/tmp/filewN86d0":41:32]), 
-Pattern 9: tmp_mvt.c:loc(fused["/tmp/filewN86d0":77:3, "/tmp/filewN86d0":79:38]), tmp_mvt.c:loc(fused["/tmp/filewN86d0":80:3, "/tmp/filewN86d0":82:38]), 
-Pattern 10: tmp_mvt.c:loc(fused["/tmp/filewN86d0":77:3, "/tmp/filewN86d0":79:38]), tmp_mvt.c:loc(fused["/tmp/filewN86d0":80:3, "/tmp/filewN86d0":82:38]), 
+Pattern 3: tmp_mvt.c:loc(fused["/tmp/fileg0J65v":40:7, "/tmp/fileg0J65v":41:32]), 
+Pattern 9: tmp_mvt.c:loc(fused["/tmp/fileg0J65v":77:3, "/tmp/fileg0J65v":79:38]), tmp_mvt.c:loc(fused["/tmp/fileg0J65v":80:3, "/tmp/fileg0J65v":82:38]), 
+Pattern 10: tmp_mvt.c:loc(fused["/tmp/fileg0J65v":77:3, "/tmp/fileg0J65v":79:38]), tmp_mvt.c:loc(fused["/tmp/fileg0J65v":80:3, "/tmp/fileg0J65v":82:38]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 9 (pat_mvt): tmp_mvt.c:loc(fused["/tmp/filewN86d0":77:3, "/tmp/filewN86d0":79:38]), 
-Pattern 10 (pat_mvt2): tmp_mvt.c:loc(fused["/tmp/filewN86d0":80:3, "/tmp/filewN86d0":82:38]), 
+Pattern 9 (pat_mvt): tmp_mvt.c:loc(fused["/tmp/fileg0J65v":77:3, "/tmp/fileg0J65v":79:38]), 
+Pattern 10 (pat_mvt2): tmp_mvt.c:loc(fused["/tmp/fileg0J65v":80:3, "/tmp/fileg0J65v":82:38]), 
 Got 2 Matches.
 
 [INFO] Starting rewrite stage...
@@ -297,9 +297,9 @@ Got 2 Matches.
 [INFO] Injecting "pat_mvt" definition into input code...
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 0.136536s
-  [RESULT] Tempo Otimizado: 0.020275s
-  [RESULT] Speedup Obtido : 6.7342x
+  [RESULT] Tempo Baseline : 0.151043s
+  [RESULT] Tempo Otimizado: 0.031450s
+  [RESULT] Speedup Obtido : 4.80264x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: symm
@@ -324,11 +324,11 @@ Running SMR on files: tmp_syr2k.c, [INFO] Input file compiled and stored at 'tmp
 Running SMR on files: tmp_syr2k.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 8: tmp_syr2k.c:loc(fused["/tmp/filefHNOSd":81:3, "/tmp/filefHNOSd":87:2]), 
+Pattern 8: tmp_syr2k.c:loc(fused["/tmp/file48oBys":81:3, "/tmp/file48oBys":87:2]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 8 (pat_syr2k): tmp_syr2k.c:loc(fused["/tmp/filefHNOSd":81:3, "/tmp/filefHNOSd":87:2]), 
+Pattern 8 (pat_syr2k): tmp_syr2k.c:loc(fused["/tmp/file48oBys":81:3, "/tmp/file48oBys":87:2]), 
 Got 1 Matches.
 
 [INFO] Starting rewrite stage...
@@ -339,9 +339,9 @@ Got 1 Matches.
 [INFO] Injecting "pat_syr2k" definition into input code...
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 5.198283s
-  [RESULT] Tempo Otimizado: 0.022683s
-  [RESULT] Speedup Obtido : 229.171x
+  [RESULT] Tempo Baseline : 5.096676s
+  [RESULT] Tempo Otimizado: 0.022669s
+  [RESULT] Speedup Obtido : 224.83x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: syrk
@@ -350,11 +350,11 @@ Running SMR on files: tmp_syrk.c, [INFO] Input file compiled and stored at 'tmp_
 Running SMR on files: tmp_syrk.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 7: tmp_syrk.c:loc(fused["/tmp/fileL559CU":77:3, "/tmp/fileL559CU":80:39]), 
+Pattern 7: tmp_syrk.c:loc(fused["/tmp/fileJ96lrz":77:3, "/tmp/fileJ96lrz":80:39]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
-Pattern 7 (pat_syrk): tmp_syrk.c:loc(fused["/tmp/fileL559CU":77:3, "/tmp/fileL559CU":80:39]), 
+Pattern 7 (pat_syrk): tmp_syrk.c:loc(fused["/tmp/fileJ96lrz":77:3, "/tmp/fileJ96lrz":80:39]), 
 Got 1 Matches.
 
 [INFO] Starting rewrite stage...
@@ -365,9 +365,9 @@ Got 1 Matches.
 [INFO] Injecting "pat_syrk" definition into input code...
 [INFO] Outputing optimized input to file "modified.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 2.609230s
-  [RESULT] Tempo Otimizado: 0.012897s
-  [RESULT] Speedup Obtido : 202.313x
+  [RESULT] Tempo Baseline : 2.617327s
+  [RESULT] Tempo Otimizado: 0.012669s
+  [RESULT] Speedup Obtido : 206.593x
   [RESULT] Validação      : SUCESSO (Resultados equivalentes)
 ----------------------------------------
 Processando: trisolv
@@ -392,7 +392,7 @@ Running SMR on files: tmp_trmm.c, [INFO] Input file compiled and stored at 'tmp_
 Running SMR on files: tmp_trmm.c, pat.pat, 
 [INFO] Starting CDG matching...
 ========== CDG matches ==========
-Pattern 7: tmp_trmm.c:loc(fused["/tmp/file9u3f73":70:3, "/tmp/file9u3f73":73:44]), 
+Pattern 7: tmp_trmm.c:loc(fused["/tmp/file94kDuv":70:3, "/tmp/file94kDuv":73:44]), 
 =================================
 [INFO] Starting DDG matching...
 ========== DDG matches ==========
@@ -548,7 +548,7 @@ Got 0 Matches.
   [INFO] Sem alterações para este benchmark (Nenhum match encontrado ou arquivo idêntico).
 ----------------------------------------
 Processando: fdtd-apml
-In file included from /tmp/fileIIWZ0e:20:
+In file included from /tmp/filez0J2Q6:20:
 ./fdtd-apml.h:8:9: warning: 'FDTD_APML_H' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
     8 | #ifndef FDTD_APML_H
       |         ^~~~~~~~~~~
@@ -559,7 +559,7 @@ In file included from /tmp/fileIIWZ0e:20:
 1 warning generated.
 Running SMR on files: tmp_fdtd-apml.c, [INFO] Input file compiled and stored at 'tmp_fdtd-apml-compiled.mlir'
 
-In file included from /tmp/fileqmfeAU:20:
+In file included from /tmp/filedk3Oja:20:
 ./fdtd-apml.h:8:9: warning: 'FDTD_APML_H' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
     8 | #ifndef FDTD_APML_H
       |         ^~~~~~~~~~~

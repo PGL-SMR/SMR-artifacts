@@ -56,7 +56,7 @@ double **mm_mul(int n, double *const *a, double *const *b)
 int main() {
     // Definindo o tamanho da matriz (Ex: 3x3)
     // Dica: Para ver tempos maiores de execução, aumente este número (ex: 500 ou 1000)
-    int n = 3; 
+    int n = 20; 
 
     // Alocando e inicializando as matrizes A e B
     double **matrix_A = mm_init(n);

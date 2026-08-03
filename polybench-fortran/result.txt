@@ -1,0 +1,125 @@
+[INFO] Compilando fpolybench.c de referência...
+----------------------------------------
+Processando: correlation
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: covariance
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: 2mm
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 69.061625s
+  [RESULT] Tempo Otimizado: 0.201664s
+  [RESULT] Speedup Obtido : 342.459x
+  [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
+----------------------------------------
+Processando: 3mm
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 104.221262s
+  [RESULT] Tempo Otimizado: 0.280489s
+  [RESULT] Speedup Obtido : 371.57x
+  [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
+----------------------------------------
+Processando: atax
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 0.244827s
+  [RESULT] Tempo Otimizado: 0.081451s
+  [RESULT] Speedup Obtido : 3.00582x
+  [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
+----------------------------------------
+Processando: bicg
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 0.157222s
+  [RESULT] Tempo Otimizado: 0.076858s
+  [RESULT] Speedup Obtido : 2.04562x
+  [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
+----------------------------------------
+Processando: cholesky
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: doitgen
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: gemm
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 34.681662s
+  [RESULT] Tempo Otimizado: 0.076431s
+  [RESULT] Speedup Obtido : 453.764x
+  [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
+----------------------------------------
+Processando: gemver
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: gesummv
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: mvt
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 0.589524s
+  [RESULT] Tempo Otimizado: 0.086204s
+  [RESULT] Speedup Obtido : 6.83871x
+  [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
+----------------------------------------
+Processando: symm
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 52.331079s
+  [RESULT] Tempo Otimizado: 0.082425s
+  [RESULT] Speedup Obtido : 634.893x
+  [RESULT] Validação      : FALHA (Divergência matemática além do erro tolerado!)
+----------------------------------------
+Processando: syr2k
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: syrk
+  [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
+  [RESULT] Tempo Baseline : 19.476695s
+  [RESULT] Tempo Otimizado: 0.112872s
+  [RESULT] Speedup Obtido : 172.556x
+  [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
+----------------------------------------
+Processando: trisolv
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: trmm
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: durbin
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: dynprog
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: gramschmidt
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: lu
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: ludcmp
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: floyd-warshall
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: reg_detect
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: adi
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: fdtd-2d
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: fdtd-apml
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: jacobi-1d-imper
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: jacobi-2d-imper
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processando: seidel-2d
+  [INFO] Sem alterações para este benchmark (Nenhum match estrutural encontrado).
+----------------------------------------
+Processo finalizado. Resumo salvo em smr_fortran_test_log.txt.

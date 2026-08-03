@@ -1,4 +1,4 @@
-=== Teste SMR Fortran Corrigido com Validação: Wed Jul 15 15:18:19 UTC 2026 ===
+=== Teste SMR Fortran Corrigido com Validação: Wed Jul 15 17:45:58 UTC 2026 ===
 [INFO] Compilando fpolybench.c de referência...
 ----------------------------------------
 Processando: correlation
@@ -56,9 +56,9 @@ Got 2 Matches.
 [WARN] Failed to inject "_QQclX4E" definition! It already exists in the input code!
 [INFO] Outputing optimized input to file "tmp/modified_2mm.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 67.453205s
-  [RESULT] Tempo Otimizado: 0.171815s
-  [RESULT] Speedup Obtido : 392.592x
+  [RESULT] Tempo Baseline : 69.061625s
+  [RESULT] Tempo Otimizado: 0.201664s
+  [RESULT] Speedup Obtido : 342.459x
   [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
 ----------------------------------------
 Processando: 3mm
@@ -93,9 +93,9 @@ Got 3 Matches.
 [WARN] Failed to inject "_QQclX4E" definition! It already exists in the input code!
 [INFO] Outputing optimized input to file "tmp/modified_3mm.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 103.020930s
-  [RESULT] Tempo Otimizado: 0.327165s
-  [RESULT] Speedup Obtido : 314.89x
+  [RESULT] Tempo Baseline : 104.221262s
+  [RESULT] Tempo Otimizado: 0.280489s
+  [RESULT] Speedup Obtido : 371.57x
   [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
 ----------------------------------------
 Processando: atax
@@ -119,9 +119,9 @@ Got 1 Matches.
 [INFO] Injecting "_QQclX4E" definition into input code...
 [INFO] Outputing optimized input to file "tmp/modified_atax.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 0.248731s
-  [RESULT] Tempo Otimizado: 0.077583s
-  [RESULT] Speedup Obtido : 3.206x
+  [RESULT] Tempo Baseline : 0.244827s
+  [RESULT] Tempo Otimizado: 0.081451s
+  [RESULT] Speedup Obtido : 3.00582x
   [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
 ----------------------------------------
 Processando: bicg
@@ -145,9 +145,9 @@ Got 1 Matches.
 [INFO] Injecting "_QQclX54" definition into input code...
 [INFO] Outputing optimized input to file "tmp/modified_bicg.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 0.161550s
-  [RESULT] Tempo Otimizado: 0.078925s
-  [RESULT] Speedup Obtido : 2.04688x
+  [RESULT] Tempo Baseline : 0.157222s
+  [RESULT] Tempo Otimizado: 0.076858s
+  [RESULT] Speedup Obtido : 2.04562x
   [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
 ----------------------------------------
 Processando: cholesky
@@ -199,9 +199,9 @@ Got 1 Matches.
 [INFO] Injecting "_QQclX4E" definition into input code...
 [INFO] Outputing optimized input to file "tmp/modified_gemm.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 33.774793s
-  [RESULT] Tempo Otimizado: 0.080403s
-  [RESULT] Speedup Obtido : 420.069x
+  [RESULT] Tempo Baseline : 34.681662s
+  [RESULT] Tempo Otimizado: 0.076431s
+  [RESULT] Speedup Obtido : 453.764x
   [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
 ----------------------------------------
 Processando: gemver
@@ -249,19 +249,19 @@ Got 2 Matches.
 [INFO] Selecting between 2 possible rewrites...
 [INFO] Selected rewrite 1...
 [INFO] Applying rewrite 1...
-[INFO] Injecting "_QPsmr_pattern_mvt2_double" definition into input code...
+[INFO] Injecting "_QPsmr_pattern_mvt1_double" definition into input code...
 [INFO] Injecting "_QPdgemv" definition into input code...
 [INFO] Injecting "_QQclX4E" definition into input code...
 [INFO] Selected rewrite 0...
 [INFO] Applying rewrite 0...
-[INFO] Injecting "_QPsmr_pattern_mvt1_double" definition into input code...
+[INFO] Injecting "_QPsmr_pattern_mvt2_double" definition into input code...
 [WARN] Failed to inject "_QPdgemv" definition! It already exists in the input code!
 [WARN] Failed to inject "_QQclX4E" definition! It already exists in the input code!
 [INFO] Outputing optimized input to file "tmp/modified_mvt.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 0.598892s
-  [RESULT] Tempo Otimizado: 0.092512s
-  [RESULT] Speedup Obtido : 6.47367x
+  [RESULT] Tempo Baseline : 0.589524s
+  [RESULT] Tempo Otimizado: 0.086204s
+  [RESULT] Speedup Obtido : 6.83871x
   [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
 ----------------------------------------
 Processando: symm
@@ -284,9 +284,9 @@ Got 1 Matches.
 [INFO] Injecting "_QQclX4C" definition into input code...
 [INFO] Outputing optimized input to file "tmp/modified_symm.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 53.063167s
-  [RESULT] Tempo Otimizado: 0.083092s
-  [RESULT] Speedup Obtido : 638.607x
+  [RESULT] Tempo Baseline : 52.331079s
+  [RESULT] Tempo Otimizado: 0.082425s
+  [RESULT] Speedup Obtido : 634.893x
   [RESULT] Validação      : FALHA (Divergência matemática além do erro tolerado!)
 ----------------------------------------
 Processando: syr2k
@@ -323,9 +323,9 @@ Got 1 Matches.
 [INFO] Injecting "_QQclX4E" definition into input code...
 [INFO] Outputing optimized input to file "tmp/modified_syrk.mlir"...
   [INFO] Rewrite detectado! Compilando para testes de tempo e corretude...
-  [RESULT] Tempo Baseline : 19.517428s
-  [RESULT] Tempo Otimizado: 0.117060s
-  [RESULT] Speedup Obtido : 166.73x
+  [RESULT] Tempo Baseline : 19.476695s
+  [RESULT] Tempo Otimizado: 0.112872s
+  [RESULT] Speedup Obtido : 172.556x
   [RESULT] Validação      : SUCESSO (Resultados matematicamente equivalentes)
 ----------------------------------------
 Processando: trisolv
