@@ -5,30 +5,10 @@ from pathlib import Path
 import argparse
 import filecmp
 import shlex
-import time
-from datetime import datetime
 
 ROOT = Path(".").resolve()
 PATTERN_DIR = ROOT / "pat"
 SERIALIZED_DIR = PATTERN_DIR / "serialized"
-
-
-def medir_tempo(func, *args, arquivo_log="log_execucao.txt", **kwargs):
-    inicio = time.perf_counter()
-
-    resultado = func(*args, **kwargs)
-
-    fim = time.perf_counter()
-    tempo_execucao = fim - inicio
-
-    data_execucao = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-    with open(arquivo_log, "a", encoding="utf-8") as f:
-        f.write(
-            f"{data_execucao} | Função: {func.__name__} | Tempo: {tempo_execucao:.6f} segundos\n"
-        )
-
-    return resultado
 
 
 def run_capture(cmd, debug=False):
@@ -226,4 +206,4 @@ def main():
 
 
 if __name__ == "__main__":
-    medir_tempo(main)
+    main()

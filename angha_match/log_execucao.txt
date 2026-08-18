@@ -1,3 +1,0 @@
-2026-07-02 19:25:17 | Função: main | Tempo: 26.432384 segundos (angha)
-2026-07-02 19:25:28 | Função: main | Tempo: 2.609651 segundos (angha serialized)
-2026-07-03 09:49:28 | Função: main | Tempo: 48472.746550 segundos
